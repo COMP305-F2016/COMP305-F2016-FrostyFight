@@ -28,7 +28,12 @@ public class SnowmanController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
 
         if (other.gameObject.CompareTag("Island")) {
-            Debug.Log("Hit");
+            Debug.Log("Island Hit");
+        }
+
+        if (other.gameObject.CompareTag("Cloud"))
+        {
+            Debug.Log("Cloud Hit");
         }
     }
 }

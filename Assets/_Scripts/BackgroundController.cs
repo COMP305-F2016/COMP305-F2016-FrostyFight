@@ -21,7 +21,7 @@ public class BackgroundController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         this._transform = this.GetComponent<Transform>();
-        this._speed = 2;
+        this._reset();
 	
 	}
 	
@@ -51,6 +51,7 @@ public class BackgroundController : MonoBehaviour {
     /*this method resets the game object to the original position
     */
     private void _reset() {
+        this._speed = 2;
         this._transform.position = new Vector2(0f, 0f);
     }
 }

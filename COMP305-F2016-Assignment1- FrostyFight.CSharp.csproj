@@ -70,6 +70,7 @@
     <Compile Include="Assets\Resources\scripts\CPlayer.cs" />
     <Compile Include="Assets\Resources\scripts\CPlayerAgent.cs" />
     <Compile Include="Assets\_Scripts\BackgroundController.cs" />
+    <Compile Include="Assets\_Scripts\CloudController.cs" />
     <Compile Include="Assets\_Scripts\RockController.cs" />
     <Compile Include="Assets\_Scripts\SnowmanController.cs" />
   </ItemGroup>
